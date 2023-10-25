@@ -183,6 +183,7 @@ class DQNAgent(object):
     self.training_steps = 0
     self.optimizer = optimizer
     tf.compat.v1.disable_v2_behavior()
+    print(summary_writer)
     if isinstance(summary_writer, str):  # If we're passing in directory name.
       self.summary_writer = tf.compat.v1.summary.FileWriter(summary_writer)
     else:
