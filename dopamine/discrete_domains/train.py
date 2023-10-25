@@ -47,7 +47,7 @@ def main(unused_argv):
   Args:
     unused_argv: Arguments (unused).
   """
-  logging.set_verbosity(logging.INFO)
+  logging.set_verbosity(logging.DEBUG)
   tf.compat.v1.disable_v2_behavior()
 
   base_dir = FLAGS.base_dir
