@@ -20,10 +20,9 @@ flatbuffers==23.5.26
 flax==0.7.2
 fonttools==4.43.1
 future==0.18.3
-gast==0.5.4
+gast==0.4.0
 gin-config==0.5.0
 google-auth==2.23.2
-google-auth-oauthlib==1.1.0
 google-pasta==0.2.0
 grpcio==1.59.0
 gym==0.25.2
@@ -46,7 +45,7 @@ mdurl==0.1.2
 ml-dtypes==0.2.0
 msgpack==1.0.7
 nest-asyncio==1.5.8
-numpy==1.24.4
+numpy==1.24.3
 oauthlib==3.2.2
 opencv-python==4.8.1.78
 opt-einsum==3.3.0
@@ -71,7 +70,7 @@ rich==13.6.0
 rsa==4.9
 scipy==1.10.1
 six==1.16.0
-tensorboard==2.14.0
+tensorboard==2.13.0
 tensorboard-data-server==0.7.1
 tensorboard-plugin-wit==1.8.1
 tensorflow==2.13.1
