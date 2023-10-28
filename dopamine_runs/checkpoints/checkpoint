@@ -1,5 +1,0 @@
-model_checkpoint_path: "/tmp/dopamine_runs/checkpoints/tf_ckpt-199"
-all_model_checkpoint_paths: "/tmp/dopamine_runs/checkpoints/tf_ckpt-196"
-all_model_checkpoint_paths: "/tmp/dopamine_runs/checkpoints/tf_ckpt-197"
-all_model_checkpoint_paths: "/tmp/dopamine_runs/checkpoints/tf_ckpt-198"
-all_model_checkpoint_paths: "/tmp/dopamine_runs/checkpoints/tf_ckpt-199"
