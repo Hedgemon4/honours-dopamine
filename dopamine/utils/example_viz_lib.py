@@ -84,6 +84,7 @@ class MyDQNAgent(dqn_agent.DQNAgent):
           include=include_vars)
     if variables_to_restore:
       reloader = tf.compat.v1.train.Saver(var_list=variables_to_restore)
+      print(checkpoint_path)
       reloader.restore(self._sess, checkpoint_path)
       logging.info('Done restoring from %s', checkpoint_path)
     else:
